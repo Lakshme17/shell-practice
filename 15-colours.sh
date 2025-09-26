@@ -19,7 +19,7 @@ VALIDATE(){
          echo -e "installing $2 .....$R failure $N"
          exit 1
      else
-         echo -e installing $2 ......$G success $N"
+         echo -e "installing $2 ......$G success $N"
      fi        
  }
  
