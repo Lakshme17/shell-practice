@@ -7,7 +7,7 @@ if [ $USERID -ne 0 ]; then
    exit 1 # exit means - we can exit from excution of continution 
 fi 
 
-dnf install mysql -y 
+dnf install mysq1 -y 
 
 if [ $? -ne 0 ]; then
    echo "ERROR:: Installing MySQL is failure"
