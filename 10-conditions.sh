@@ -13,7 +13,7 @@ if [ $NUMBER -lt 17 ]; then
 elif [ $NUMBER -eq 17 ]; then
     echo "Given number $NUMBER is equal to 17"   
 else
-    echo "Given number $NUMBER is greater than or equal to 17"
+    echo "Given number $NUMBER is greater than to 17"
 fi     
 
 
