@@ -5,10 +5,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-NUMBER=$1
-
-
-echo "read the number $NUMBER"
+echo "read the number"
 read 
 
-echo "My lucky number is:$NUMBER"
+echo "My lucky number is: $NUMBER"
