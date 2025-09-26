@@ -41,8 +41,8 @@ fi
 
 dnf list installed python3
 if [ $? -ne 0 ]; then
-    dnf install python3 -y
-    VALIDATE $? "python3"
+    dnf install python3 -y 
+    VALIDATE $? "Python3"
 else
-    echo -e "Python3 already exist ... $Y SKIPPING $N"
+    echo -e "python3 already exit ...$Y skipping $N"
 fi
