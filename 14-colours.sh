@@ -7,6 +7,7 @@ N="\e[0m"
 
 NUMBER=$1
 
+
 echo "read the number $NUMBER"
 read 
 
