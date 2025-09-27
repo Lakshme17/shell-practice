@@ -53,4 +53,4 @@ if [ $? -ne 0 ]; then
     VALIDATE $? "Python3"
 else
     echo -e "python3 already exit ...$Y skipping $N" | tee -a $LOG_FILE
-fi
+ficd 
